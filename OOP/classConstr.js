@@ -27,7 +27,7 @@ class Auto_Fuel extends Auto{
     }
 }
 class Auto_Electric extends Auto{
-    constructor(name, model, yaer, vin,battery){
+    constructor(name, model, year, vin,battery){
         super(name, model, yaer, vin, battery)
         this.name = name;
         this.model = model;
